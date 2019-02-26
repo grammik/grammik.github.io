@@ -23,13 +23,13 @@
 body {
     margin: 0;
     padding: 0;
-    height: auto;
     box-sizing: content-box;
 }
 
 /*Слайдер*/
 #lightSlider {
     margin-top: 0px;
+    width: 100%;
 }
 
 .fotka {
@@ -44,7 +44,7 @@ body {
     border-top: 3px solid #23191A;
     border-bottom: 3px solid #23191A;
     position: relative;
-    z-index: 3000;
+    z-index: 30;
 }
 
 .logogo {
@@ -104,9 +104,8 @@ body {
 }
 
 .spaceq {
-    height: 87px;
+    height: 90px;
     width: 250px;
-    top: 3px;
     left: 50%;
     background-color: #F4F0DF;
     -webkit-transform: translateX(-50%);
@@ -129,8 +128,8 @@ body {
     margin-left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    width: 1300px;
-    top: 6px;
+    width: 198px;
+    height: 177px;
     z-index: 6;
     pointer-events: none;
 }
@@ -370,7 +369,7 @@ body {
     left: 50%;
     background: #D7D7D7;
     height: 150px;
-    width: 94%;
+    width: auto;
     position: relative;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
