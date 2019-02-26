@@ -24,6 +24,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    min-width: 1050px;min-width: 1050px;
 }
 
 /*Слайдер*/
